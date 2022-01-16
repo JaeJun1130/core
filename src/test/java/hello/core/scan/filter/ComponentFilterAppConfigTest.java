@@ -24,6 +24,7 @@ public class ComponentFilterAppConfigTest {
 
     @Configuration
     @ComponentScan(
+            //default : type = FilterType.ANNOTATION
             //포함하는 필터 타입 클래스
             includeFilters = @ComponentScan.Filter(type = FilterType.ANNOTATION, classes = MyIncludeComponent.class),
             //제외하는 필터 타입 클래스

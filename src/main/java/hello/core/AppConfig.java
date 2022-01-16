@@ -13,8 +13,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class AppConfig {
-    //커맨드 + 알트 M 리팩토링 단축키
-
+    //커맨드 + 알트 M 리팩토링 단축키#$
     @Bean
     public MemberService memberService() {
         System.out.println("call AppConfig.memberService");
